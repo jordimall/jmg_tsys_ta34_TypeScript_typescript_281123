@@ -3,6 +3,12 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.Persona = void 0;
 const enumSexo_1 = require("./enumSexo");
 class Persona {
+    nombre;
+    edad;
+    dni;
+    sexo;
+    peso;
+    altura;
     constructor(dni, nombre = "", edad = 0, sexo = enumSexo_1.SEXO_DEFECTO, peso = 0, altura = 0) {
         this.dni = dni;
         this.nombre = nombre;

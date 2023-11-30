@@ -2,6 +2,8 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.Password = void 0;
 class Password {
+    longitud;
+    contrasena;
     constructor(longitud = 8) {
         this.longitud = longitud;
         this.contrasena = this.generarContrasena();
